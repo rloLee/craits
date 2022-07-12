@@ -1,0 +1,202 @@
+name: craits
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  share:
+
+  # 카카오
+  json_annotation: ^4.0.1                       #Json
+  kakao_flutter_sdk: 0.8.2                   #kakao
+  dio:
+  package_info:
+  platform:
+  shared_preferences:
+
+  #네이버 로그인
+  flutter_naver_login: 1.2.4
+
+  firebase_core: ^1.4.0
+  firebase_auth: ^3.0.1
+
+  #네이버 지도
+  naver_map_plugin: ^0.9.6
+  
+  #구글
+  google_sign_in: ^5.0.5
+
+  firebase_messaging: ^10.0.6
+  flutter_local_notifications: ^8.2.0
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.0
+  flutter_svg: ^0.21.0             # svg 파일 
+  adaptive_action_sheet: ^2.0.0               # 사진촬영/사진저장소 선택하는 화면
+  image_picker: ^0.8.1+3                          # 이미지 한개 촬영 또는 갤러리
+  multi_image_picker2: ^4.7.15                   # 이미지 여러개 갤러리
+  geolocator: 7.6.2                           # 위치정보
+  
+  intl: ^0.17.0                                 # Datetime 포맷
+  syncfusion_localizations: ^19.3.44            # locale 설정
+  syncfusion_flutter_datepicker: ^19.3.44       # Datetime picker
+  scroll_to_index: ^2.0.0                       # 스크롤 자동
+  carousel_slider: ^4.0.0                       # 이미지 슬라이더
+
+  flutter_secure_storage: ^4.2.1                #자동로그인
+  kpostal: ^0.2.0                               #카카오 주소찾기
+
+  firebase_dynamic_links: ^2.0.9                #파이어베이스 다이나믹 링크
+  flutter_speed_dial: ^4.3.0                    #플로팅버튼
+  url_launcher: ^6.0.10                         #URL 브라우저띄우기
+  photo_view: ^0.13.0                           #사진 뷰어 (확대)
+  
+  image_crop: ^0.4.0                          #프로필 사진 크롭
+  multi_masked_formatter: ^0.1.0
+  
+  #내부저장
+  path: ^1.8.0
+  path_provider: ^2.0.4
+
+  permission_handler: 8.1.6
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/logoImage.svg
+    - assets/search.svg
+    - assets/user_color.svg
+    - assets/alarm.svg
+    - assets/camera.svg
+    - assets/home_color.svg
+    - assets/hospital_color.svg
+    - assets/pharmacy_color.svg
+    - assets/pill_color.svg
+    - assets/logoText_black_small.svg
+    - assets/write.svg
+    - assets/calendar 1.svg
+    - assets/like_o.svg
+    - assets/like_x.svg
+    - assets/comment.svg
+    - assets/share.svg
+    - assets/location.svg
+    - assets/Star_o.svg
+    - assets/Star_x.svg
+    - assets/Star_half.svg
+    - assets/image.svg
+    - assets/filter.svg
+    - assets/tel.svg
+    - assets/noImage.svg
+    - assets/deleteFilter.svg
+    - assets/close.svg
+    - assets/errorImage.svg
+    - assets/arrowLeft.svg
+    - assets/arrowRight.svg
+    - assets/arrowDown.svg
+    - assets/likeSmall_o.svg
+    - assets/likeSmall_x.svg
+    - assets/commentSmall.svg
+    - assets/more_vert.svg
+    - assets/hospital.svg
+    - assets/error.svg
+    - assets/btnG_naver.png
+    - assets/btn_google_light_normal.png
+    - assets/kakaologo.png
+    - assets/noProfile.png
+    - assets/map.svg
+    - assets/setting.svg
+    - assets/markerHospital.png
+    - assets/markerPharmacy.png
+    - assets/check.svg
+    - assets/trash.svg
+    - assets/takeAlarm.svg
+    - assets/done.svg
+    - assets/edit.svg
+    - assets/animation.svg
+    - assets/park.svg
+    - assets/splash.gif
+    - assets/permissionAlarm.svg
+    - assets/permissionCamera.svg
+    - assets/permissionDevice.svg
+    - assets/permissionLocation.svg
+    - assets/permissionStorage.svg
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  
+  fonts:
+    #  - family: NotoSansCJKkr
+    #    fonts:
+    #      - asset: fonts/NotoSansCJKkr-Regular.ttf
+    #      - asset: fonts/NotoSansCJKkr-Medium.ttf
+    #        weight: 500
+    #      - asset: fonts/NotoSansCJKkr-Bold.ttf
+    #        weight: 700
+     - family: SpoqaHanSansNeo
+       fonts:
+         - asset: fonts/SpoqaHanSansNeo-Regular.ttf
+         - asset: fonts/SpoqaHanSansNeo-Medium.ttf
+           weight: 500
+         - asset: fonts/SpoqaHanSansNeo-Bold.ttf
+           weight: 700
+           
+
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages

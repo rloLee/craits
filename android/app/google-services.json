@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "557245224634",
+    "firebase_url": "https://craits-dev-288201.firebaseio.com",
+    "project_id": "craits-dev-288201",
+    "storage_bucket": "craits-dev-288201.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:557245224634:android:cb9f3cbbb78cdfecf4d483",
+        "android_client_info": {
+          "package_name": "com.dw.craits"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "557245224634-62quin1tlv0bo2d7rio1taaigqifi1p8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dw.craits",
+            "certificate_hash": "e0a298f8928529f08e6fe7c75c2f06ad3669c944"
+          }
+        },
+        {
+          "client_id": "557245224634-u1emb350e3csdc9tcalt1vg64s7su7eb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxj-ZCt_fhSr-ndhk0P2pX60Gtf8YYN28"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "557245224634-u1emb350e3csdc9tcalt1vg64s7su7eb.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "557245224634-6m14rrjhf14pr5jqbq4lonai5htpmb90.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.dawool.craits"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
